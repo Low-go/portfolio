@@ -12,29 +12,6 @@ body, html {
   margin-bottom: 20px; 
 }
 
-nav ul {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  background-color: #333;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-  margin: 0;
-}
-
-nav ul li {
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  cursor: pointer; 
-}
-
 .content {
   padding-top: 60px; /* Adjust based on navbar height */
 }

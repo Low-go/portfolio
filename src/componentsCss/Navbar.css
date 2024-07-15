@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Soehne Buch';
+    src: url('../../public/fonts/test-soehne-buch.woff2') format('woff2');
+  }
+  
+  nav {
+    position: relative; /* Required for absolute positioning of the icon */
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    list-style-type: none;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    margin: 0;
+    font-family: 'Soehne Buch', sans-serif; /* Use custom font */
+  }
+  
+  nav ul .icon {
+    position: absolute;
+    left: 350px; /* Adjust this value to push the icon further left */
+  }
+  
+  nav ul li {
+    margin: 0 10px; /* Reduce margin between items */
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px; /* Reduce font size */
+  }
+  
+  nav ul .icon img {
+    width: 25px; /* Adjust size of the icon */
+    height: 23px;
+   
+  }
+  
