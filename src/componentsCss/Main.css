@@ -1,0 +1,41 @@
+/* Main.css */
+
+@font-face {
+  font-family: 'Soehne Buch';
+  src: url('../../public/fonts/test-soehne-buch.woff2')  format('woff2');
+}
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    color: #000; /* Adjust color as needed */
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Soehne Buch', sans-serif;
+    font-size: 4em;
+    font-weight: 400;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
