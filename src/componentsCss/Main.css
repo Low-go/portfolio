@@ -16,6 +16,14 @@
     color: #000; /* Adjust color as needed */
     text-align: center;
   }
+  .backgroundVideo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
   
   h1 {
     font-family: 'Soehne Buch', sans-serif;
