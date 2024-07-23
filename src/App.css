@@ -1,17 +1,18 @@
-/* src/App.css */
-body, html {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
+  font-family: 'PT Sans', sans-serif;
 }
 
-.section {
-  height: 100vh; 
-  padding: 50px;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 20px; 
-}
-
-.content {
-  padding-top: 60px; /* Adjust based on navbar height */
+.home,
+.about-me,
+.projects,
+.resume,
+.contact-me {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
 }
