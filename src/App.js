@@ -4,6 +4,7 @@ import Resume from './components/Resume';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
 import Main from './components/Main'; 
+import AboutMe from './components/AboutMe';
 import './App.css'
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
     <div className='content_wrapper'>
       <Navbar/>
       <Main/>
-      <Projects/>
+      <AboutMe/>
       <Resume/>
+      <Projects/>
       <ContactMe/>
     </div>
   )
