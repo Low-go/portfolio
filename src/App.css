@@ -15,4 +15,9 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+  
+}
+
+.section {
+  background-color: white;
 }
