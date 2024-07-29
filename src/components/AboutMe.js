@@ -1,6 +1,7 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import '../componentsCss/AboutMe.css';
+import testimage from '../images/test1.jpg';
 
 function AboutMe() {
   return (
@@ -27,7 +28,7 @@ function AboutMe() {
           <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src="..." className="d-block w-100" alt="..."/>
+                <img src={testimage} className="d-block w-100" alt="..."/>
               </div>
               <div className="carousel-item">
                 <img src="..." className="d-block w-100" alt="..."/>
