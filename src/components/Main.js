@@ -10,10 +10,6 @@ function Main() {
         <source src={videoSource} type='video/mp4' />
       </video> 
       <h1>Lorran Alves Galdino</h1>
-      <p>A look into me</p>
-      <a href="your-link-here" target="_blank" rel="noopener noreferrer">
-        <button>Temp</button>
-      </a>
     </Element>
   );
 }
