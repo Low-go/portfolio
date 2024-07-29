@@ -1,0 +1,51 @@
+.about_me-section {
+    height: 100vh;
+    width: 100%;
+    background-color: #f0f0f0; /* Use a professional background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about_me-content {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    justify-content: space-between;
+  }
+  
+  .about_me-text {
+    width: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+  }
+  
+  .about_me-carousel {
+    width: 50%;
+  }
+  
+  @media (max-width: 992px) { /* Medium screens (tablets, 768px and up) */
+    .about_me-content {
+      flex-direction: column;
+    }
+    .about_me-carousel {
+      display: none;
+    }
+    .about_me-text {
+      width: 100%;
+      font-size: 1rem; /* Adjust font size for medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) { /* Small screens (phones, less than 768px) */
+    .about_me-text {
+      font-size: 1.2rem; /* Adjust font size for small screens */
+    }
+  }
+  
+  @media (max-width: 576px) { /* Extra small screens (phones, less than 576px) */
+    .about_me-text {
+      font-size: 0.8rem; /* Adjust font size for extra small screens */
+    }
+  }
+  
