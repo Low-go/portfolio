@@ -58,7 +58,7 @@
   
   @media (max-width: 576px) { /* Extra small screens (phones, less than 576px) */
     .about_me-text {
-      font-size: 0.8rem; /* Adjust font size for extra small screens */
+      font-size: 0.9rem; /* Adjust font size for extra small screens */
     }
 }
   
