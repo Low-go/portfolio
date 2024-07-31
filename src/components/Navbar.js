@@ -50,9 +50,6 @@ function Navbar() {
             <li className='nav-item'>
               <Link to="contact-me" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>Contact Me</Link>
             </li>
-            {/* <li className='nav-item'>
-              <Link to="contact-me" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>Contact Me</Link>
-            </li> */}
           </ul>
         </div>
       </nav>
