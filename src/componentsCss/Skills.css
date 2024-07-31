@@ -1,0 +1,17 @@
+.skills-section{
+    height: 75vh;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+.icons-container{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+    justify-items: center;
+    align-items: center;
+}
+
+.programming-image{
+    height: 128px;
+    width: auto;
+}

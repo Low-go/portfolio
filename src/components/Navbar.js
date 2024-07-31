@@ -42,6 +42,9 @@ function Navbar() {
               <Link to="about_me" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>About Me</Link>
             </li>
             <li className='nav-item'>
+              <Link to="skills" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>Skills</Link>
+            </li>
+            <li className='nav-item'>
               <Link to="resume" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>Resume</Link>
             </li>
             <li className='nav-item'>

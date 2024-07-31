@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
 import Main from './components/Main'; 
 import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <Main/>
       <AboutMe/>
+      <Skills/>
       <Resume/>
       <Projects/>
       <ContactMe/>
