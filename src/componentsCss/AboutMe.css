@@ -36,6 +36,12 @@
     object-fit: cover;
     border-radius: 4px;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Set the icon color to white */
+  border-radius: 10%; /* Make the icon background circular if needed */
+}
   
 @media (max-width: 992px) { /* Medium screens (tablets, 768px and up) */
     .about_me-content {

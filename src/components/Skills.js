@@ -4,7 +4,8 @@ import '../componentsCss/Skills.css';
 
 function Skills() {
   return (
-    <Element name="skills" className='skills-section'>     
+    <Element name="skills" className='skills-section'>
+      <h2 className='header'>Skills</h2>       
       <div className='icons-container'>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" alt="Python" className='programming-image'/>
 
@@ -16,7 +17,7 @@ function Skills() {
 
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" alt="Git" className='programming-image'/>
 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" alt="gitHub" className='programming-image'/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="gitHub" className='programming-image'/>
       </div>
     </Element>
   )

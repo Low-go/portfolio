@@ -1,17 +1,34 @@
-.skills-section{
+.skills-section {
     height: 75vh;
     width: 100%;
     background-color: #e0e0e0;
-}
-.icons-container{
-    
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
-    justify-items: center;
-    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.programming-image{
-    height: 128px;
+.header {
+    text-align: center;
+    
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.icons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.programming-image {
+    height: 120px;
     width: auto;
 }
