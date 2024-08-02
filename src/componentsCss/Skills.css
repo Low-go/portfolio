@@ -1,10 +1,11 @@
 .skills-section {
-    height: 75vh;
+    height: 90vh;
     width: 100%;
     background-color: #e0e0e0;
     padding: 20px;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 110px;
 }
 
 .header {
