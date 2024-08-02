@@ -14,12 +14,19 @@ function Resume() {
             do so outside University life within the professional market.
           </p>
         </div>
-        <div className='resume-thumbnail'>
-          <div className='resume-card'>
-            <a href="https://drive.google.com/file/d/1Xc2Y0QfQWz8BjGaWKn65n0o1hvsdI0VN/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-              <img src={resume} alt="resume thumbnail"/>
-            </a>
-          </div>
+        <div className='resume-card'>
+          <a className='resume-card__link' href="https://drive.google.com/file/d/1Xc2Y0QfQWz8BjGaWKn65n0o1hvsdI0VN/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <figure className='resume-card__pic-wrap' data-category="Resume">
+              <img
+                className='resume-card__img'
+                src={resume}
+                alt="resume thumbnail"
+              />
+            </figure>
+            <div className='resume-card__info'>
+              <h5 className='resume-card__text'>View My Resume</h5>
+            </div>
+          </a>
         </div>
         <a href="https://drive.google.com/file/d/1Xc2Y0QfQWz8BjGaWKn65n0o1hvsdI0VN/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="resume-button">
           Resume
