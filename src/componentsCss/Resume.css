@@ -6,44 +6,56 @@
     align-items: center;
     justify-content: center;
     color: white;
-  }
+}
   
-  .resume-content {
+.resume-content {
     display: flex;
     width: 80%;
     max-width: 1200px;
     justify-content: space-between;
-  }
+    position: relative;
+}
   
-  .resume-text {
+.resume-text {
     width: 50%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.1rem;
     padding-right: 25px;
-  }
+}
   
-  .resume-thumbnail {
+.resume-thumbnail {
     width: 50%;
     padding-left: 25px;
     padding-top: 13px;
-  }
+}
   
-  .resume-thumbnail img {
+.resume-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.resume-thumbnail img {
     width: 100%;
     height: auto;
     max-height: 400px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;
-  }
+}
   
-  .resume-thumbnail img:hover {
+.resume-thumbnail img:hover {
     transform: scale(1.05);
-  }
+}
+.resume-button{
+    display: none;
+}
   
-  @media (max-width: 992px) {
+@media (max-width: 992px) {
     .resume-content {
       flex-direction: column;
+      align-items: center;
     }
     .resume-thumbnail {
       display: none;
@@ -51,12 +63,35 @@
     .resume-text {
       width: 100%;
       font-size: 1rem;
+      text-align: center;
+      padding-right: 0;
     }
-  }
-  
-  @media (max-width: 768px) {
-    .resume-text {
-      font-size: 1.2rem;
+
+    .resume-button {
+        display: none; 
+        position: absolute;
+        bottom: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 80px;
+        border-radius: 20px; 
+        border: 2px solid white;
+        color: white;
+        background-color: transparent;
+        font-size: 0.9rem;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        margin-top: 20px;
+    }
+      
+    .resume-button:hover {
+        background-color: white;
+        color: #3a3936;
+        bottom: -85px; 
     }
   }
   
@@ -64,5 +99,9 @@
     .resume-text {
       font-size: 0.9rem;
     }
-  }
-  
+    .resume-button {
+      width: 70px;
+      height: 70px;
+      font-size: 0.8rem;
+    }
+}
