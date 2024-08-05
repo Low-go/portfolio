@@ -1,16 +1,18 @@
 .skills-section {
-    height: 90vh;
+    min-height: 90vh;
     width: 100%;
     background-color: #e0e0e0;
     padding: 20px;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
     text-align: center;
-    
     font-size: 3rem;
     font-weight: bold;
     color: #333;
@@ -23,13 +25,66 @@
     grid-template-rows: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
-    gap: 40px;
-    max-width: 80%;
+    gap: 100px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 40px;
 }
 
+.skill-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.skill-box:hover {
+    transform: scale(1.05);
+}
+
 .programming-image {
-    height: 120px;
+    height: 100px;
     width: auto;
+}
+
+.resume-link {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.resume-link a {
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 2px solid #333;
+    padding-bottom: 2px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.resume-link a:hover {
+    color: #666;
+    border-color: #666;
+}
+
+@media (max-width: 620px) {
+    .icons-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .programming-image {
+        height: 80px;
+    }
+    
+    .header {
+        font-size: 2.5rem;
+    }
+    
+    .skills-section {
+        height: auto;
+        min-height: 90vh;
+    }
 }

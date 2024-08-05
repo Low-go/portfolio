@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Resume from './components/Resume';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
 import Main from './components/Main'; 
@@ -15,7 +14,6 @@ function App() {
       <Main/>
       <AboutMe/>
       <Skills/>
-      <Resume/>
       <Projects/>
       <ContactMe/>
     </div>

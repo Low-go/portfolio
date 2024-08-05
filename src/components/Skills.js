@@ -7,17 +7,29 @@ function Skills() {
     <Element name="skills" className='skills-section'>
       <h2 className='header'>Skills</h2>       
       <div className='icons-container'>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" alt="Python" className='programming-image'/>
-
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"  alt="Java" className='programming-image'/>
-      
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" alt="React" className='programming-image'/>
-
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" alt="Django" className='programming-image'/>         
-
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" alt="Git" className='programming-image'/>
-
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="gitHub" className='programming-image'/>
+        <div className='skill-box'>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" alt="Python" className='programming-image'/>
+        </div>
+        <div className='skill-box'>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"  alt="Java" className='programming-image'/>
+        </div>
+        <div className='skill-box'>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" alt="React" className='programming-image'/>
+        </div>
+        <div className='skill-box'>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" alt="Django" className='programming-image'/>
+        </div>
+        <div className='skill-box'>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" alt="Git" className='programming-image'/>
+        </div>
+        <div className='skill-box'>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="gitHub" className='programming-image'/>
+        </div>
+      </div>
+      <div className='resume-link'>
+        <a href="https://drive.google.com/file/d/1Xc2Y0QfQWz8BjGaWKn65n0o1hvsdI0VN/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          Check out my resume
+        </a>
       </div>
     </Element>
   )
