@@ -1,18 +1,26 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import '../componentsCss/Projects.css';
+import cathedral from '../images/cathedral.jpg';
+import peace from '../images/peace.jpg';
+import mountain from '../images/mountain.jpg';
+import frog from '../images/frog.jpg';
+import sunset from '../images/sunset.jpg';
 
 function Projects() {
   const projects = [
-    { title: "Fluid Simulation", image: "assets/promo/gallery1.webp", link: "#" },
-    { title: "Music TV", image: "assets/promo/gallery2.webp", link: "#" },
-    { title: "The Great Wave", image: "assets/promo/gallery3.webp", link: "#" },
-    { title: "Simple System", image: "assets/promo/gallery4.webp", link: "#" },
-    { title: "Synthwave", image: "assets/promo/gallery5.webp", link: "#" },
+    { title: "Fluid Simulation", image: cathedral, link: "#" },
+    { title: "Music TV", image: peace, link: "#" },
+    { title: "The Great Wave", image: mountain, link: "#" },
+    { title: "Simple System", image: frog, link: "#" },
+    { title: "Synthwave", image: sunset, link: "#" },
   ];
 
   return (
     <Element name="projects" className='project-section'>
+      <div className="title-container">
+        <h1>Projects</h1>
+      </div>
       <div className="gallery-container">
         <div className="gallery-wrap">
           {projects.map((project, index) => (
