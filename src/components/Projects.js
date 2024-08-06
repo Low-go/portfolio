@@ -34,6 +34,11 @@ function Projects() {
             </a>
           ))}
         </div>
+        <div className='github-link'>
+        <a href="https://github.com/Low-go" target="_blank" rel="noopener noreferrer">
+          Follow me on GitHub
+        </a>
+      </div>
       </div>
     </Element>
   );
