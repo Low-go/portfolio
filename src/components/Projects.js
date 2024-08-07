@@ -3,16 +3,16 @@ import { Element } from 'react-scroll';
 import '../componentsCss/Projects.css';
 import cathedral from '../images/cathedral.jpg';
 import peace from '../images/peace.jpg';
-import mountain from '../images/mountain.jpg';
-import frog from '../images/frog.jpg';
 import sunset from '../images/sunset.jpg';
+import RPS from '../images/rockPaperScissor.jpg';
+import dev_blog from '../images/dev_blog.png';
 
 function Projects() {
   const projects = [
     { title: "Fluid Simulation", image: cathedral, link: "#" },
     { title: "Music TV", image: peace, link: "#" },
-    { title: "The Great Wave", image: mountain, link: "#" },
-    { title: "Simple System", image: frog, link: "#" },
+    { title: "Dev Blog", image: dev_blog, link: "https://low-go.github.io/dev_blog/" },
+    { title: "Rock,Paper,Scissor Simulator", image: RPS, link: "https://github.com/Low-go/RockxPaperxScissor-Simulator" },
     { title: "Synthwave", image: sunset, link: "#" },
   ];
 
