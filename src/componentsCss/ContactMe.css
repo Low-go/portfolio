@@ -1,90 +1,123 @@
-.contactme-section {
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-}
-  
-.contact-container {
-    text-align: center;
+/* ContactMe.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
+.contactme-section {
+  background-color: #DEE1DD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-family: "Inter", sans-serif;
 }
-  
+
+.contact-container {
+  max-width: 600px;
+  width: 100%;
+}
+
 .contact-title {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    color: #333;
+  color: #4A4A4A; /* Dark gray */
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
-  
+
 .contact-card {
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
-    max-width: 400px;
-    margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
-  
+
 .profile-picture {
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 1rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1.5rem;
+  display: block;
+  border: 4px solid #4A4A4A; /* Dark gray */
 }
-  
+
 .name {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+  color: #333333; /* Very dark gray */
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
 }
-  
+
 .job-title {
-    color: #666;
-    margin-bottom: 1rem;
+  color: #555555; /* Medium gray */
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
 }
-  
+
 .contact-info {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
-  
+
 .info-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
 }
-  
+
 .icon {
-    margin-right: 0.5rem;
-    color: #007bff;
+  color: #1E90FF; /* Dodger blue */
+  font-size: 1.2rem;
+  margin-right: 1rem;
 }
-  
+
 .info-item a {
-    color: #333;
-    text-decoration: none;
+  color: #333333; /* Very dark gray */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 400;
 }
-  
+
+.info-item a:hover {
+  color: #1E90FF; /* Dodger blue */
+}
+
 .social-links {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
 }
-  
+
 .social-icon {
-    font-size: 1.5rem;
-    margin: 0 0.5rem;
-    transition: color 0.3s ease;
+  font-size: 1.8rem;
+  color: #1E90FF; /* Dodger blue */
+  transition: color 0.3s ease, transform 0.3s ease;
 }
-  
-.linkedin {
-    color: #0077b5;
-}
-  
-.github {
-    color: #333;
-}
-  
+
 .social-icon:hover {
-    color: #007bff;
+  color: #4169E1; /* Royal blue */
+  transform: scale(1.1);
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 1rem;
+    max-width: 100%;
+  }
+ 
+  .contact-title {
+    font-size: 2rem;
+  }
+ 
+  .name {
+    font-size: 1.5rem;
+  }
+ 
+  .job-title {
+    font-size: 1rem;
+  }
 }

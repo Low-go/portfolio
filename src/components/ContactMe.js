@@ -2,7 +2,7 @@ import React from 'react';
 import { Element } from 'react-scroll';
 import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from 'react-icons/fa';
 import '../componentsCss/ContactMe.css';
-import me from "../images/me.jpg"
+
 
 function ContactMe() {
   return (
@@ -10,7 +10,7 @@ function ContactMe() {
       <div className="contact-container">
         <h2 className="contact-title">Let's Connect</h2>
         <div className="contact-card">
-          <img src={me} alt="Lorran Alves Galdino" className="profile-picture" />
+          <img src={`${process.env.PUBLIC_URL}/images/me.jpg`} alt="Lorran Alves Galdino" className="profile-picture" />
           <h3 className="name">Lorran Alves Galdino</h3>
           <p className="job-title">Software Developer</p>
           <div className="contact-info">

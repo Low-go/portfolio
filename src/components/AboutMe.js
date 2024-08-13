@@ -1,9 +1,6 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import '../componentsCss/AboutMe.css';
-import testimage from '../images/test1.jpg';
-import image2 from '../images/test4.jpg';
-import image3 from '../images/test3.jpg'
 
 function AboutMe() {
   return (
@@ -30,13 +27,13 @@ function AboutMe() {
           <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={image2} className="d-block w-100" alt="..."/>
+                <img src={`${process.env.PUBLIC_URL}/images/test4.jpg`} className="d-block w-100" alt="..."/>
               </div>
               <div className="carousel-item">
-                <img src={testimage} className="d-block w-100" alt="..."/>
+                <img src={`${process.env.PUBLIC_URL}/images/test1.jpg`} className="d-block w-100" alt="..."/>
               </div>
               <div className="carousel-item">
-                <img src={image3} className="d-block w-100" alt="..."/>
+                <img src={`${process.env.PUBLIC_URL}/images/test3.jpg`} className="d-block w-100" alt="..."/>
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

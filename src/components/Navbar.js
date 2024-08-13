@@ -28,27 +28,27 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='main' className="navbar-logo" onClick={closeMobileMenu} smooth={true} duration={500}>
+          {/* <Link to='main' className="navbar-logo" onClick={closeMobileMenu} smooth={true} duration={500}>
             LOW-GO <i className="fa-solid fa-ghost"></i>
-          </Link>
+          </Link> */}
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : "fa-solid fa-bars"}></i>
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>       
             <li className='nav-item'>
-              <Link to="main" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>Home</Link>
+              <Link to="main" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>HOME</Link>
             </li>
             <li className='nav-item'>
-              <Link to="about_me" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>About Me</Link>
+              <Link to="about_me" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>ABOUT ME</Link>
             </li>
             <li className='nav-item'>
-              <Link to="skills" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>Skills</Link>
+              <Link to="skills" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>SKILLS</Link>
             </li>
             <li className='nav-item'>
-              <Link to="projects" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>Projects</Link>
+              <Link to="projects" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>PROJECTS</Link>
             </li>
             <li className='nav-item'>
-              <Link to="contact-me" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>Contact Me</Link>
+              <Link to="contact-me" className='nav-links' onClick={closeMobileMenu} smooth={true} duration={500}>CONTACT ME</Link>
             </li>
           </ul>
         </div>

@@ -1,8 +1,8 @@
 .project-section {
-  height: 100vh;
+  height: 110vh;
   width: auto;
-  background-color: grey;
-  padding-top: 60px;
+  background-color: #28363D;
+  padding-top: 80px;
   text-align: center;
 }
 
@@ -79,7 +79,7 @@
 .github-link a {
   font-family: 'Georgia', serif;
   font-size: 1.2rem;
-  color: #333;
+  color: white;
   text-decoration: none;
   border-bottom: 2px solid #333;
   padding-bottom: 2px;

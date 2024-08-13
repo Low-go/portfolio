@@ -1,19 +1,15 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import '../componentsCss/Projects.css';
-import cathedral from '../images/cathedral.jpg';
-import peace from '../images/peace.jpg';
-import sunset from '../images/sunset.jpg';
-import RPS from '../images/rockPaperScissor.jpg';
-import dev_blog from '../images/dev_blog.png';
+
 
 function Projects() {
   const projects = [
-    { title: "Fluid Simulation", image: cathedral, link: "#" },
-    { title: "Music TV", image: peace, link: "#" },
-    { title: "Dev Blog", image: dev_blog, link: "https://low-go.github.io/dev_blog/" },
-    { title: "Rock,Paper,Scissor Simulator", image: RPS, link: "https://github.com/Low-go/RockxPaperxScissor-Simulator" },
-    { title: "Synthwave", image: sunset, link: "#" },
+    { title: "Fluid Simulation", image: `${process.env.PUBLIC_URL}/images/cathedral.jpg`, link: "#" },
+    { title: "Music TV", image: `${process.env.PUBLIC_URL}/images/peace.jpg`, link: "#" },
+    { title: "Dev Blog", image: `${process.env.PUBLIC_URL}/images/dev_blog.png`, link: "https://low-go.github.io/dev_blog/" },
+    { title: "Rock,Paper,Scissor Simulator", image: `${process.env.PUBLIC_URL}/images/rockPaperScissor.jpg`, link: "https://github.com/Low-go/RockxPaperxScissor-Simulator" },
+    { title: "Synthwave", image: `${process.env.PUBLIC_URL}/images/sunset.jpg`, link: "#" },
   ];
 
   return (
