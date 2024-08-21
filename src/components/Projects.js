@@ -9,7 +9,7 @@ function Projects() {
     { title: "LeetCode Practice", image: `${process.env.PUBLIC_URL}/images/leetcode.png`, link: "https://github.com/Low-go/LeetCodePartTwo" },
     { title: "Dev Blog", image: `${process.env.PUBLIC_URL}/images/dev_blog.png`, link: "https://low-go.github.io/dev_blog/" },
     { title: "Rock,Paper,Scissor Simulator", image: `${process.env.PUBLIC_URL}/images/rockPaperScissor.jpg`, link: "https://github.com/Low-go/RockxPaperxScissor-Simulator" },
-    { title: "Portfolio Website", image: `${process.env.PUBLIC_URL}/images/portfolioImage.jpg`, link: "#" },
+    { title: "Portfolio Website", image: `${process.env.PUBLIC_URL}/images/portfolioImage.jpg`, link: "https://github.com/Low-go/portfolio" },
   ];
 
   return (
