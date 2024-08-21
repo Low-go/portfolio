@@ -27,13 +27,19 @@ function AboutMe() {
           <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={`${process.env.PUBLIC_URL}/images/test4.jpg`} className="d-block w-100" alt="..."/>
+                <img src={`${process.env.PUBLIC_URL}/images/relax.jpg`} className="d-block w-100" alt="..."/>
               </div>
               <div className="carousel-item">
-                <img src={`${process.env.PUBLIC_URL}/images/test1.jpg`} className="d-block w-100" alt="..."/>
+                <img src={`${process.env.PUBLIC_URL}/images/sideView.jpg`} className="d-block w-100" alt="..."/>
               </div>
               <div className="carousel-item">
-                <img src={`${process.env.PUBLIC_URL}/images/test3.jpg`} className="d-block w-100" alt="..."/>
+                <img src={`${process.env.PUBLIC_URL}/images/tacoStand.jpg`} className="d-block w-100" alt="..."/>
+              </div>
+              <div className="carousel-item">
+                <img src={`${process.env.PUBLIC_URL}/images/tBay.jpg`} className="d-block w-100" alt="..."/>
+              </div>
+              <div className="carousel-item">
+                <img src={`${process.env.PUBLIC_URL}/images/dandadan.avif`} className="d-block w-100" alt="..."/>
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
