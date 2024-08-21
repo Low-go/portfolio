@@ -9,7 +9,7 @@ function Projects() {
     { title: "JFS_Navigator", image: `${process.env.PUBLIC_URL}/images/code.jpg`, link: "#" },
     { title: "Dev Blog", image: `${process.env.PUBLIC_URL}/images/dev_blog.png`, link: "https://low-go.github.io/dev_blog/" },
     { title: "Rock,Paper,Scissor Simulator", image: `${process.env.PUBLIC_URL}/images/rockPaperScissor.jpg`, link: "https://github.com/Low-go/RockxPaperxScissor-Simulator" },
-    { title: "Synthwave", image: `${process.env.PUBLIC_URL}/images/sunset.jpg`, link: "#" },
+    { title: "Portfolio Website", image: `${process.env.PUBLIC_URL}/images/portfolioImage.jpg`, link: "#" },
   ];
 
   return (
