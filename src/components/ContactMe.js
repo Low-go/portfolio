@@ -1,17 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Element } from 'react-scroll';
 import '../componentsCss/ContactMe.css';
 
 function ContactMe() {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Handle form submission logic here
-  };
+  const [status, setStatus] = useState("");
+
+  const submitForm = (ev) => {
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        setStatus("SUCCESS");
+      } else {
+        setStatus("ERROR");
+      }
+    };
+    xhr.send(data);
+  }
 
   return (
     <Element name="contact-me" className="contactme-section">
       <div className="container contact-form">
-        <form onSubmit={handleSubmit}>
+        <form
+          onSubmit={submitForm}
+          action="https://formspree.io/f/mzzpyyrv"
+          method="POST"
+        >
           <h3>Contact Me</h3>
           <div className="row">
             <div className="col-md-6">
@@ -34,6 +54,8 @@ function ContactMe() {
               </div>
             </div>
           </div>
+          {status === "SUCCESS" && <p>Thanks for your submission!</p>}
+          {status === "ERROR" && <p>Oops! There was an error.</p>}
         </form>
       </div>
     </Element>
