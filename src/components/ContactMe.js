@@ -32,7 +32,7 @@ function ContactMe() {
           action="https://formspree.io/f/mzzpyyrv"
           method="POST"
         >
-          <h3>Contact Me</h3>
+          <h1>Contact Me</h1>
           <div className="row">
             <div className="col-md-6">
               <div className="form-group">

@@ -1,6 +1,7 @@
 .contactme-section {
   background: linear-gradient(to right, #2c3e50, #4ca1af);
   padding: 50px 0;
+
 }
 
 .contact-form {
@@ -13,7 +14,7 @@
 
 .contact-form .form-control {
   border-radius: 1rem;
-  margin-bottom: 1rem; /* Add space below each input */
+  margin-bottom: 1rem; 
 }
 
 .contact-image {
@@ -32,10 +33,11 @@
 }
 
 .contact-form form .row {
-  margin-bottom: 1rem; /* Adjust row spacing */
+  margin-bottom: 1rem; 
 }
 
-.contact-form h3 {
+.contact-form h1 {
+  font-weight: bold;
   margin-bottom: 8%;
   margin-top: -10%;
   text-align: center;

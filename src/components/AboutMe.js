@@ -7,7 +7,7 @@ function AboutMe() {
     <Element name="about_me" className='about_me-section'>
       <div className='about_me-content'>
         <div className='about_me-text'>
-          <h2>About Me</h2>
+          <h1>About Me</h1>
           <p>
             Hey, my name is Lorran Alves Galdino and I am an International Undergraduate student pursuing a degree in Computer Science
             at BYU-Hawaii.
@@ -15,7 +15,7 @@ function AboutMe() {
           <br/>
           <p>
           I currently work as a Systems Consultant at my Universities IT department, and also as a Web design and AI specialist 
-          where I am tasked using the DJango framework with embedding an AI assistant into my Universities library page to assist students with their research.
+          where I am tasked using the Django framework with embedding an AI assistant into my Universities library page to assist students with their research.
           </p>
           <br/>
           <p>

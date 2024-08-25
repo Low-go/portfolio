@@ -1,0 +1,17 @@
+.footer-section {
+
+    width: 100%;
+    padding: 0px 0;
+    height: 14vh;
+    background-color: #6c757d;
+  }
+  
+  .footer-section footer {
+    max-width: 1200px;  /* or whatever max-width you prefer */
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .footer-section .text-body-secondary {
+    color: #6c757d;  
+  }
