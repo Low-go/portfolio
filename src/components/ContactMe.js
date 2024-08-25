@@ -1,37 +1,40 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from 'react-icons/fa';
 import '../componentsCss/ContactMe.css';
 
-
 function ContactMe() {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Handle form submission logic here
+  };
+
   return (
-    <Element name="contact-me" className='contactme-section'>
-      <div className="contact-container">
-        <h2 className="contact-title">Let's Connect</h2>
-        <div className="contact-card">
-          <img src={`${process.env.PUBLIC_URL}/images/me.jpg`} alt="Lorran Alves Galdino" className="profile-picture" />
-          <h3 className="name">Lorran Alves Galdino</h3>
-          <p className="job-title">Software Developer</p>
-          <div className="contact-info">
-            <div className="info-item">
-              <FaPhone className="icon" />
-              <a href="tel:18085016713">1 (808) 501-6713</a>
+    <Element name="contact-me" className="contactme-section">
+      <div className="container contact-form">
+        <form onSubmit={handleSubmit}>
+          <h3>Contact Me</h3>
+          <div className="row">
+            <div className="col-md-6">
+              <div className="form-group">
+                <input type="text" name="name" className="form-control" placeholder="Your Name *" required />
+              </div>
+              <div className="form-group">
+                <input type="email" name="email" className="form-control" placeholder="Your Email *" required />
+              </div>
+              <div className="form-group">
+                <input type="tel" name="phone" className="form-control" placeholder="Your Phone Number" />
+              </div>
+              <div className="form-group">
+                <button type="submit" className="btnContact">Send Message</button>
+              </div>
             </div>
-            <div className="info-item">
-              <FaEnvelope className="icon" />
-              <a href="mailto:lorransoftwaredev@gmail.com">lorransoftwaredev@gmail.com</a>
+            <div className="col-md-6">
+              <div className="form-group">
+                <textarea name="message" className="form-control" placeholder="Your Message *" style={{width: '100%', height: '150px'}} required></textarea>
+              </div>
             </div>
           </div>
-          <div className="social-links">
-            <a href="https://www.linkedin.com/in/lorran-alves-galdino/" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="social-icon linkedin" />
-            </a>
-            <a href="https://github.com/Low-go" target="_blank" rel="noopener noreferrer">
-              <FaGithub className="social-icon github" />
-            </a>
-          </div>
-        </div>
+        </form>
       </div>
     </Element>
   );
