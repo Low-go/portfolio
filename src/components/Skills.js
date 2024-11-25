@@ -27,7 +27,7 @@ function Skills() {
         </div>
       </div>
       <div className='resume-link'>
-        <a href="https://drive.google.com/file/d/1Xc2Y0QfQWz8BjGaWKn65n0o1hvsdI0VN/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1HnjIRIciPF1I13g2iVSUiVt_WGHxJcSx/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
           Check out my resume
         </a>
       </div>
