@@ -65,7 +65,7 @@
 
 .segmented-control button[class*="bg-white"] {
   color: #1a202c;
-  background: rgba(255, 255, 255, 0.95);
+  background: #465A5E;
   box-shadow: 
     0 1px 3px rgba(0, 0, 0, 0.1),
     0 1px 2px rgba(0, 0, 0, 0.06);
@@ -162,13 +162,13 @@
 @media (max-width: 480px) {
   .project-section {
     padding-top: 10px;
-    /* Remove fixed height to allow content to flow */
+    /* Lets mess around with the height later to fix some stuff*/
     height: auto;
     min-height: 100vh;
   }
 
   .gallery-container {
-    /* Adjust padding for mobile */
+  
     margin: 0px 20px;
     padding-top: 15px;
   }
@@ -176,32 +176,32 @@
   .gallery-wrap {
     flex-direction: column;
     height: auto;
-    gap: 15px; /* Add more space between items */
+    gap: 15px; 
   }
 
   .item {
-    /* Give each item a proper height on mobile */
+  
     height: 250px;
-    /* Reset flex to prevent squishing */
+  
     flex: none;
     width: 100%;
-    border-radius: 5px; /* Make all corners rounded */
+    border-radius: 5px; 
   }
 
-  /* Override the hover effect for better mobile experience */
+
   .item:hover {
     flex: none;
-    transform: scale(1.02); /* Optional: add a subtle scale effect instead */
+    transform: scale(1.02); 
     transition: transform 0.3s ease;
   }
 
   .item p {
-    /* Make title always visible on mobile */
+   
     display: block;
     margin: 15px;
   }
 
-  /* Reset border radius since items stack vertically */
+
   .item-1, .item-5 {
     border-radius: 5px;
   }  

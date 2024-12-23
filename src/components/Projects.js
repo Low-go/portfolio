@@ -14,15 +14,13 @@ function Projects() {
   ];
 
   const projects2 = [
-    { title: "JFS_Navigator", image: `${process.env.PUBLIC_URL}/images/code.jpg`, link: "https://www.youtube.com/watch?v=y1mFCYGkXuA" },
+    { title: "Alumni Digital ID Card", image: `${process.env.PUBLIC_URL}/images/ID.jpg`, link: "https://www.youtube.com/watch?v=Mlhad3SIhEo" },
+    { title: "Ai PowerPoint Automation", image: `${process.env.PUBLIC_URL}/images/automation.jpg`, link: "https://github.com/Low-go/PowerPointAutomation" },
 
   ];
   const certificates = [
-    { title: "Certificate 1", image: `${process.env.PUBLIC_URL}/images/code.jpg`, link: "#" },
-    { title: "Certificate 2", image: `${process.env.PUBLIC_URL}/images/leetcode.png`, link: "#" },
-    { title: "Certificate 3", image: `${process.env.PUBLIC_URL}/images/dev_blog.png`, link: "#" },
-    { title: "Certificate 4", image: `${process.env.PUBLIC_URL}/images/rockPaperScissor.jpg`, link: "#" },
-    { title: "Certificate 5", image: `${process.env.PUBLIC_URL}/images/portfolioImage.jpg`, link: "#" },
+    { title: "Upsilon Membership", image: `${process.env.PUBLIC_URL}/images/Upsilon.jpg`, link: "-	https://drive.google.com/file/d/19F_kZpVJetP3mXJwvtPVtPQDTOd1wnjd/view?usp=drive_link" },
+    { title: "URC Award", image: `${process.env.PUBLIC_URL}/images/Award.jpg`, link: "https://drive.google.com/file/d/1SFTEVh_ApVoiq_RBPEfkWW_xPVZMHoor/view?usp=drive_link" },
   ];
 
   const [activeTab, setActiveTab] = useState('projects');
