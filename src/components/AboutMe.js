@@ -14,8 +14,8 @@ function AboutMe() {
           </p>
           <br/>
           <p>
-          I currently work as a Systems Consultant at my Universities IT department, and also as a Web design and AI specialist 
-          where I am tasked using the Django framework with embedding an AI assistant into my Universities library page to assist students with their research.
+          I currently work as a Computer Science Tutor and Teaching Assistant for the Faculty of Math and Computing, where I attend classes, grade papers
+          and assist students with software development, debugging, assignments and core concepts such as Algorithms, Object-Oriented Design, databases and more. 
           </p>
           <br/>
           <p>
@@ -27,6 +27,9 @@ function AboutMe() {
           <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
+                <img src={`${process.env.PUBLIC_URL}/images/me.jpg`} className="d-block w-100" alt="..."/>
+              </div>
+              <div className="carousel-item active">
                 <img src={`${process.env.PUBLIC_URL}/images/relax.jpg`} className="d-block w-100" alt="..."/>
               </div>
               <div className="carousel-item">
@@ -37,9 +40,6 @@ function AboutMe() {
               </div>
               <div className="carousel-item">
                 <img src={`${process.env.PUBLIC_URL}/images/tBay.jpg`} className="d-block w-100" alt="..."/>
-              </div>
-              <div className="carousel-item">
-                <img src={`${process.env.PUBLIC_URL}/images/dandadan.avif`} className="d-block w-100" alt="..."/>
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
